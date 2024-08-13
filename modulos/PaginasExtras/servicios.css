@@ -1,0 +1,64 @@
+body{
+    background: #FEF2E4;
+}
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+background-image: radial-gradient(circle at 50% -20.71%, #ffff8d 0, #ffea82 16.67%, #eed077 33.33%, #d8b46c 50%, #c09a62 66.67%, #a98359 83.33%, #947051 100%);    background-clip: text;
+    background-clip: text;
+  text-shadow: 7px 4px 5px #d8b46c; 
+  font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+background-image: radial-gradient(circle at 50% -20.71%, #ffff8d 0, #ffea82 16.67%, #eed077 33.33%, #d8b46c 50%, #c09a62 66.67%, #a98359 83.33%, #947051 100%);    transform: translateX(-100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ .img-fluid{
+        width: 200px;
+        height: 200px;
+    }
+
+.row {
+    width: 50%; /* Ancho definido */
+    margin: 0 auto; /* Centrado horizontal */
+    color: white;
+    padding: 20px;
+}
+.img-fluid{
+    font-size: 16px;
+    padding: 20px 30px;
+    color: #fff;
+background-image: radial-gradient(circle at 79.88% -14.09%, #ffffef 0, #ffffd4 25%, #f2f2b5 50%, #d5dc98 75%, #bbc97f 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: 7px solid #d8b46c;
+    border-radius: 60px;
+}
+.img-fluid:hover {
+background: #fdc298;
+    transform: scale(1.05);
+    border-color: #fdc298;
+}

@@ -1,0 +1,62 @@
+body{
+    background: #FEF2E4;
+}
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+background-image: radial-gradient(circle at 50% -20.71%, #ffff8d 0, #ffea82 16.67%, #eed077 33.33%, #d8b46c 50%, #c09a62 66.67%, #a98359 83.33%, #947051 100%);    background-clip: text;
+    background-clip: text;
+    text-shadow: 7px 4px 5px #d8b46c;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+background-image: radial-gradient(circle at 50% -20.71%, #ffff8d 0, #ffea82 16.67%, #eed077 33.33%, #d8b46c 50%, #c09a62 66.67%, #a98359 83.33%, #947051 100%);    transform: translateX(-100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.img-fluid{
+    width: 50px;
+    height: 50px;
+}
+
+
+.row {
+    width: 50%; /* Ancho definido */
+    margin: 0 auto; /* Centrado horizontal */
+    color: white;
+    padding: 20px;
+}
+.card-img-top{
+    font-size: 16px;
+    padding: 20px 30px;
+    color: #fff;
+background-image: linear-gradient(180deg, #fffd9b 0, #ffeb87 16.67%, #ffd66f 33.33%, #f2bd53 50%, #e3a437 66.67%, #d78f1f 83.33%, #cf7c07 100%);    transition: background 0.3s ease, transform 0.3s ease;
+    border: 7px solid #805A3B;
+    border-radius: 60px;
+}
+.card-img-top:hover {
+background: #fdc298;
+    border-color: #FD974F;
+}

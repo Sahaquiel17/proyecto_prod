@@ -1,0 +1,163 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 ago 2024, 17:53:10
+    Author     : DELL
+*/
+
+body{
+    background: #FEF2E4;
+}
+
+h2 {
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: linear-gradient(270deg, #805A3B 0, #805A3B 25%, #805A3B 50%, #805A3B 75%, #805A3B 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 2px 4px 5px #EE9440;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.15em;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background-image: radial-gradient(circle at 50% 50%, #CFCFCF 0, #CFCFCF 25%, #CFCFCF 50%, #CFCFCF 75%, #CFCFCF 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h2:hover::after {
+    transform: translateX(0);
+}
+
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btnm{
+    font-size: 20px;
+    background: #CFCFCF;
+    color: #53565a;
+    font-weight: bold;
+}
+.btnm:hover{
+    font-size: 20px;
+    background: #D2B7A4;
+    color: #000000;
+    font-weight: bold;
+}
+option{
+    font-size: 20px;
+    background: #d6e3aa;
+    color: #717e00;
+    font-weight: bold;
+}
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+    color:#805A3B;
+    text-shadow: 3px 3px 8px #805A3B;
+}
+.btns1{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #74b72e;
+    border: 4px solid #597d35;
+    border-radius: 8px;
+}
+.btns2{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #ffffff;
+    border: 4px solid #CFCFCF;
+    border-radius: 8px;
+}
+.btns3{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #fa8128;
+    border: 4px solid #ed7014;
+    border-radius: 8px;
+}
+.btns4{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #BA0000;
+    border: 4px solid #8D021F;
+    border-radius: 8px;
+}
+.btns1:hover{
+    letter-spacing: 0;
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btns2:hover{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+th{
+    background: #b18363
+}
+.btns3:hover{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btns4:hover{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 8px;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.rounded{
+    border: 4px solid #CFCFCF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 7px 14px #2e3032;
+    
+} 
+
+.ani{
+        transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+

@@ -1,0 +1,63 @@
+
+   body{
+        font-family: Arial Black, Comic Sans MS, Arial ;
+    background: #FEF2E4;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #fddfbc;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+     border: 7px solid #dbbd9a;
+}
+
+.card-header {
+    background-color: #fddfbc; /* Rojo oscuro */
+    color: #874a1f;
+    border: 7px solid #dbbd9a;
+}
+
+.card-body {
+    background-image: linear-gradient(0, #ffffff 0, #ffffff 7.14%, #ffffff 14.29%, #ffffff 21.43%, #ffffff 28.57%, #ffffff 35.71%, #fffff7 42.86%, #fef2e4 50%, #f9e5d2 57.14%, #f6d8c2 64.29%, #f4ccb6 71.43%, #f3c1ad 78.57%, #f2b6a7 85.71%, #f0ada4 92.86%, #efa6a3 100%);
+    padding: 20px;
+    
+}
+
+.btn-primary {
+    background-color: #f4c5c8; /* Anaranjado */
+    border: 3px solid #dbbd9a;
+    font-size: 20px;
+      color: #874a1f;
+}
+
+.btn-primary:hover {
+    background-color: #A11F0C; /* Rojo oscuro */
+    border-color: #A11F0C;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #C70039; /* Amarillo verdoso */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #971a79; /* Amarillo claro */
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: #874a1f;
+}
+
+.form-group label {
+    font-weight: bold;
+       color: #874a1f;
+}

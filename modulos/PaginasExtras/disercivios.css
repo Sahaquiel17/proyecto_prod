@@ -1,0 +1,64 @@
+body{
+    background: #F4EC6A;
+}
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
+    background-clip: text;
+    text-shadow: 7px 4px 5px #0bb69f;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+   background-image: radial-gradient(circle at 50% 50%, #ffe28f 0, #ffe884 4.55%, #ffed7a 9.09%, #fff271 13.64%, #fff66a 18.18%, #fff965 22.73%, #f5fa62 27.27%, #dbfb62 31.82%, #bffb64 36.36%, #9ff968 40.91%, #78f66f 45.45%, #3cf278 50%, #00ed83 54.55%, #00e992 59.09%, #00e5a3 63.64%, #00e1b5 68.18%, #00ddc9 72.73%, #00d9de 77.27%, #00d6f3 81.82%, #00d3ff 86.36%, #00d0ff 90.91%, #00ceff 95.45%, #00cbff 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ .img-fluid{
+        width: 200px;
+        height: 200px;
+    }
+
+.row {
+    width: 50%; /* Ancho definido */
+    margin: 0 auto; /* Centrado horizontal */
+    color: white;
+    padding: 20px;
+}
+.img-fluid{
+    font-size: 16px;
+    padding: 20px 30px;
+    color: #fff;
+   background-image: radial-gradient(circle at 50% 50%, #ffffcf 0, #ffffca 8.33%, #f8ffc5 16.67%, #eafec0 25%, #dafabc 33.33%, #c9f6b8 41.67%, #b5f2b5 50%, #a0edb4 58.33%, #8ae9b5 66.67%, #71e5b8 75%, #56e2bd 83.33%, #2fdec3 91.67%, #00dbcb 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: 7px solid #a4f3d2;
+    border-radius: 60px;
+}
+.img-fluid:hover {
+    background-image: radial-gradient(circle at 50% 50%, #ffff67 0, #ffff57 16.67%, #ffff49 33.33%, #f2f23c 50%, #bccc31 66.67%, #8faa28 83.33%, #698c20 100%);
+    transform: scale(1.05);
+    border-color: #81a700;
+}

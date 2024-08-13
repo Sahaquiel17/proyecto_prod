@@ -1,0 +1,61 @@
+{
+    "productos":[   
+        {
+            "descripcion": "Café"
+        },
+        {
+            "descripcion": "Chocolate"
+        },
+        {
+            "descripcion": "Chocolate"
+        },
+        {
+            "descripcion": "Coca Cola"
+        },
+        {
+            "descripcion": "Jugo de Naranja"
+        },
+        {
+            "descripcion": "Jugo de Zanahoria"
+        },
+        {
+            "descripcion": "Malteada"
+        },
+        {
+            "descripcion": "Tepache"
+        },
+        {
+            "descripcion": "Agua De Sabor"
+        },
+        {
+            "descripcion": "Tacos al Pastor"
+        },  
+        {
+            "descripcion": "Mole"
+        },  
+        {
+            "descripcion": "Chiles en Nogada"
+        },  
+        {
+            "descripcion": "Guacamole"
+        },  
+        {
+            "descripcion": "Tamales"
+        },  
+        {
+            "descripcion": "Pozole"
+        },  
+        {
+            "descripcion": "Churros"
+        },  
+        {
+            "descripcion": "Ceviche"
+        },  
+        {
+            "descripcion": "Birria"
+        },  
+        {
+            "descripcion": "Sopa de tortilla"
+        }
+    ]
+}

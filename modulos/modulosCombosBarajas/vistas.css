@@ -1,0 +1,98 @@
+body{
+    background: #FEF2E4;
+    font-family: Arial Black, Comic Sans MS, Arial ;
+}
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+   background-image: radial-gradient(circle at 50% 50%, #ead577 0, #efcb6d 10%, #f4c064 20%, #f8b35c 30%, #fba555 40%, #fd964f 50%, #fe864c 60%, #ff764d 70%, #ff6552 80%, #ff5559 90%, #ff4462 100%);
+    background-clip: text;
+    text-shadow: 7px 4px 5px #ffccae;
+    font-family: Arial Black, Comic Sans MS, Arial ;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background-image: radial-gradient(circle at 50% 50%, #ff7ca2 0, #ff7d95 7.14%, #ff7f88 14.29%, #ff837b 21.43%, #ff876f 28.57%, #ff8c63 35.71%, #ff9159 42.86%, #fd964f 50%, #f49b46 57.14%, #eaa13f 64.29%, #e0a63a 71.43%, #d4ab36 78.57%, #c8af35 85.71%, #bbb337 92.86%, #aeb73b 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+
+h2 {
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #ff7ca2 0, #ff7d95 7.14%, #ff7f88 14.29%, #ff837b 21.43%, #ff876f 28.57%, #ff8c63 35.71%, #ff9159 42.86%, #fd964f 50%, #f49b46 57.14%, #eaa13f 64.29%, #e0a63a 71.43%, #d4ab36 78.57%, #c8af35 85.71%, #bbb337 92.86%, #aeb73b 100%);
+     background-clip: text;
+    text-shadow: 2px 2px 3px #900C3F;
+   font-family: Arial Black, Comic Sans MS, Arial ;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h2::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+  background-image: radial-gradient(circle at 50% 50%, #ff7ca2 0, #ff7d95 7.14%, #ff7f88 14.29%, #ff837b 21.43%, #ff876f 28.57%, #ff8c63 35.71%, #ff9159 42.86%, #fd964f 50%, #f49b46 57.14%, #eaa13f 64.29%, #e0a63a 71.43%, #d4ab36 78.57%, #c8af35 85.71%, #bbb337 92.86%, #aeb73b 100%);
+  transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h2:hover::after {
+    transform: translateX(0);
+}
+
+
+.card {
+   border: 5px solid #c60000;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+background-image: radial-gradient(circle at 67.78% 67.78%, #f4dc9b 0, #e7c985 25%, #d8b46c 50%, #c99f54 75%, #bd8d40 100%);
+color:#805A3B;
+}
+
+.card-img-top{
+    max-width: 100%;
+    height: auto;
+      border: 5px solid #c60000;
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+        #checkout{
+           width: 200px;
+           height: 70px;
+           font-size: 20px;
+           font-weight: bold;
+        }
+
+        #diseño{
+         background-image: radial-gradient(circle at 67.78% 67.78%, #f4dc9b 0, #e7c985 25%, #d8b46c 50%, #c99f54 75%, #bd8d40 100%);   
+        }
+        
