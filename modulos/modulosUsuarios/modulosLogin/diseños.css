@@ -1,5 +1,6 @@
 body{
     background: #FEF2E4;
+      background-image: url('../../../Logo/fondose.jpg');
 }
 /*menu*/
 .navbar {
@@ -15,9 +16,10 @@ body{
 }
 /*div container*/
 .container-background {
-      background-color: #f8f9fa; /* Color de fondo claro */
-      background-image: url('../../../Logo/fondose.jpg'); /* Imagen de fondo */
-      background-size:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: center;
       background-position: center;
       height: 600px;
       padding: 50px 0; /* Espaciado arriba y abajo */
